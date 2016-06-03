@@ -1,0 +1,17 @@
+package top.cokernut.newweigetsdemo.adapter;
+
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.TextView;
+
+import top.cokernut.newweigetsdemo.R;
+
+public class MyRecyclerViewHolder extends RecyclerView.ViewHolder {
+
+  public TextView mTextView;
+
+  public MyRecyclerViewHolder(View itemView) {
+    super(itemView);
+    mTextView = (TextView) itemView.findViewById(R.id.id_textview);
+  }
+}
